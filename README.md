@@ -1,5 +1,5 @@
 # DepCheck
-An automation Script to run [OWASP Dependency-Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) on Maven Based projects
+An automation Script to run [OWASP Dependency-Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) on Maven Based projects.
 This script basically clones the given repositories and builds them using maven, once successful it runs dependency-check on them and generate the report
 
 # Requirements
@@ -13,6 +13,7 @@ Example commands for ```repo.conf```
  
 # Usage
 ```python depcheck.py``` 
+And let the script do the magic
 
 ### Tested and working fine on CentOS Linux release 7.6.1810 (Core) with Python 2.7.5.
 
