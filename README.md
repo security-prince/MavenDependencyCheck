@@ -14,3 +14,5 @@ Example commands for ```repo.conf```
 # Usage
 ```python depcheck.py``` 
 
+### Tested and working fine on CentOS Linux release 7.6.1810 (Core)
+
