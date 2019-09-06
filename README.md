@@ -17,7 +17,7 @@ Example commands for ```repo.conf```
 
 And let the script do the magic
 
-### Tested and working fine on CentOS Linux release 7.6.1810 (Core) with Python 2.7.5.
+##### Tested and working fine on CentOS Linux release 7.6.1810 (Core) with Python 2.7.5.
 
 ## Authors
 * [Praveen Sutar](https://twitter.com/praveensutar123)
