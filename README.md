@@ -23,6 +23,6 @@ And let the script do the magic
 
 # Credits
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) by [Jeremy Long](https://twitter.com/ctxt)
-* [Shrutirupa Banerjiee](https://twitter.com/freak_crypt) & [Aishwarya Iyer](https://twitter.com/Aish_9524) for proof reading
+* [Shrutirupa Banerjiee](https://twitter.com/freak_crypt) & [Aishwarya Iyer](https://twitter.com/Aish_9524) for reviewing
 
 
