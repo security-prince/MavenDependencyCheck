@@ -9,6 +9,4 @@ This script basically clones the given repositories and builds them using maven,
 Example commands for ```repo.conf```
 
 ```git clone https://github.com/elderstudios/uni-dvwa-spring.git```
-```git clone https://github.com/CSPF-Founder/VulnerableSpring.git```
-
 
