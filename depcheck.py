@@ -1,13 +1,11 @@
 #!/usr/bin/python
-import os
-import shutil
-
-
 # Project : MavenDependencyCheck
 #Description: An automation Script to run OWASP Dependency-Check on Maven Based projects.
 # Version : 1.5
 # Authors" Praveen Sutar & Ishaq Mohammed
 
+import os
+import shutil
 
 def init_pull():
     "Downloads Dependency-check and creates directories"
