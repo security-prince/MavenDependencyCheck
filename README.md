@@ -13,7 +13,7 @@ Example commands for ```repo.conf```
  ```git clone https://github.com/elderstudios/uni-dvwa-spring.git```
  
 ## Usage
-```python [depcheck.py```](https://github.com/security-prince/MavenDependencyCheck/blob/master/depcheck.py) 
+```python depcheck.py```
 
 And let the script do the magic
 
