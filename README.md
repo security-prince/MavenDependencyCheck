@@ -30,5 +30,6 @@ And let the script do the magic
 
 
 ##### Pull Requests and comments are welcome :relaxed:
-##### PS: This is work in progress, i am still trying to improve this script
+##### PS: This is work in progress
+##### Also i know there is a [maven plugin](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/) available for dependency check which can directly be injected to the projects pom.xml, but the use case for me was such that i didnt have write access to the code repo and injecting the maven script for dependency check after cloning the script was a bit of time consuming.
 
