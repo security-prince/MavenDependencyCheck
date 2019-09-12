@@ -31,5 +31,5 @@ And let the script do the magic
 
 ##### Pull Requests and comments are welcome :relaxed:
 ##### PS: This is work in progress
-##### Also i know there is a [maven plugin](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/) available for dependency check which can directly be injected to the projects pom.xml, but the use case for me was such that i didnt have write access to the code repo and injecting the maven script for dependency check after cloning the projects was a bit of time consuming.
+##### Also i know there is a [maven plugin](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/) available for dependency check which can directly be injected to the projects pom.xml, but the use case for me was such that i didn't have write access to the code repo and injecting the maven script for dependency check after cloning the projects and then building them was a bit of time consuming.
 
