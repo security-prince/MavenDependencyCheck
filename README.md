@@ -29,5 +29,6 @@ And let the script do the magic
 * [Shrutirupa Banerjiee](https://twitter.com/freak_crypt) & [Aishwarya Iyer](https://twitter.com/Aish_9524) for reviewing
 
 
-##### Pull Requests are welcome :relaxed:
+##### Pull Requests and comments are welcome :relaxed:
+##### PS: This is work in progress, i am still trying to improve this script
 
