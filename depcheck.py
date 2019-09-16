@@ -11,14 +11,14 @@ def init_pull():
     "Downloads Dependency-check and creates directories"
     report_dir = "depcheckreports"
     project_dir = "projects"
-    dependecy_ckeck_launcher = "dependency-check"
+    dependency_check_launcher = "dependency-check"
     if not os.path.exists(report_dir):
         print "## The result directory not present so creating directory"
         os.makedirs(report_dir)
     if not os.path.exists(project_dir):
         print "## The project directory not present so creating directory for project repository"
         os.makedirs(project_dir)
-    if not os.path.exists(dependecy_ckeck_launcher):
+    if not os.path.exists(dependency_check_launcher):
         print "## The dependency_check_launcher directory not present , pulling launcher"
         launcher_pull = "wget https://dl.bintray.com/jeremy-long/owasp/dependency-check-5.2.1-release.zip"
         os.system(launcher_pull)
