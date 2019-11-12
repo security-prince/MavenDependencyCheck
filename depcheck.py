@@ -20,9 +20,9 @@ def init_pull():
         os.makedirs(project_dir)
     if not os.path.exists(dependency_check_launcher):
         print "## The dependency_check_launcher directory not present , pulling launcher"
-        launcher_pull = "wget https://dl.bintray.com/jeremy-long/owasp/dependency-check-5.2.1-release.zip"
+        launcher_pull = "wget https://dl.bintray.com/jeremy-long/owasp/dependency-check-5.2.3-release.zip"
         os.system(launcher_pull)
-        unzip_launcher = "unzip dependency-check-5.2.1-release.zip"
+        unzip_launcher = "unzip dependency-check-5.2.3-release.zip"
         os.system(unzip_launcher)
 
 def read_conf():
