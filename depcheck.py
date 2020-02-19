@@ -54,6 +54,7 @@ def launcher():
             result_path = "./depcheckreports/" + pname
             print "#### launching Dependency Check ..."
             os.system('bash dependency-check/bin/dependency-check.sh --project test --disableNodeAudit --disableNodeJS --format ALL -s %s ' % project_path)
+            # os.system('bash dependency-check/bin/dependency-check.sh --project test --disableNodeAudit --disableNodeJS --format ALL --proxyserver <proxy ip --proxyport <port>-s %s ' % project_path)
 
             #Moving the reports to depcheckreports directory
             extlists=['.csv','.html','.xml','.json']
