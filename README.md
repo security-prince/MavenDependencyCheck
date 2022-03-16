@@ -23,8 +23,13 @@ Note: Dependency check might need internet access to update the NVD Database for
 For running the mvn command using a proxy refer this [article](https://medium.com/@petehouston/execute-maven-behind-a-corporate-proxy-network-5e08d075f744)  
 
 ## Supported report formats
-```XML, HTML, CSV, JSON, JUNIT, SARIF, ALL```  
-By default the script generates reports in all the formats, individual report format can be set using the ```-f``` or ```--format``` arguments on line [56](https://github.com/security-prince/MavenDependencyCheck/blob/master/depcheck.py#L56).
+* XML
+* HTML
+* CSV
+* JSON
+* JUNIT
+* SARIF    
+*Note: By default the script generates reports in all the formats, individual report format can be set using the ```-f``` or ```--format``` arguments on line [56](https://github.com/security-prince/MavenDependencyCheck/blob/master/depcheck.py#L56).*
 
 ## Authors
 * [Praveen Sutar](https://twitter.com/praveensutar123)  
