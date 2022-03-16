@@ -22,6 +22,10 @@ And let the script do the magic
 Note: Dependency check might need internet access to update the NVD Database for which a proxy might needed if you are in a restricted environment. To configure this script to use proxy for this use this sample code to configure your proxy settings and uncomment line [57](https://github.com/security-prince/MavenDependencyCheck/blob/master/depcheck.py#L57) and comment out line [56](https://github.com/security-prince/MavenDependencyCheck/blob/master/depcheck.py#L56). Refer: [Dependency check Command Line Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)  
 For running the mvn command using a proxy refer this [article](https://medium.com/@petehouston/execute-maven-behind-a-corporate-proxy-network-5e08d075f744)  
 
+## Supported report formats
+```XML, HTML, CSV, JSON, JUNIT, SARIF, ALL```  
+By default the script generates reports in all the formats, individual report format can be set using the ```-f``` or ```--format``` arguments on line [56](https://github.com/security-prince/MavenDependencyCheck/blob/master/depcheck.py#L56).
+
 ## Authors
 * [Praveen Sutar](https://twitter.com/praveensutar123)  
 * [Ishaq Mohammed](https://twitter.com/security_prince)  
