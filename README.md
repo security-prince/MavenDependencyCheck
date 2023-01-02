@@ -37,7 +37,7 @@ For running the mvn command using a proxy refer this [article](https://medium.co
 
 ## Credits
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) by [Jeremy Long](https://twitter.com/ctxt)  
-* [Shrutirupa Banerjiee](https://twitter.com/freak_crypt) & [Aishwarya Iyer](https://twitter.com/Aish_9524) for reviewing  
+* [Shrutirupa Banerjiee](https://twitter.com/freak_crypt) & [Aishwarya Iyer](https://twitter.com/infosecpanda) for reviewing  
 
 
 ##### Pull Requests and comments are welcome :relaxed:  
