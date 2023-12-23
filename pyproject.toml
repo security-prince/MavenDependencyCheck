@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mavendependencycheck"
+version = "1.5.1"
+description = "An automation script to run [OWASP Dependency-Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) on multiple Maven Based projects."
+authors = ["Devaraju Garigapati", "Praveen Sutar", "Ishaq Mohammed"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+packaging = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
